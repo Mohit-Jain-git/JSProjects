@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  margin-top: 550px;
+}
+button {
+  height: 64px;
+  width: 141px;
+  font-size: x-large;
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+body {
+  background-color: tomato;
+}

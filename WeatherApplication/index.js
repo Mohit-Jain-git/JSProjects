@@ -1,5 +1,5 @@
 let weather = {
-  apiKey: "",
+  apiKey: "0ae33063a06f72754a500dce295c0cef",
   fetchWeather: function (city) {
     fetch(
       "http://api.openweathermap.org/data/2.5/weather?q=" +
@@ -37,5 +37,8 @@ document.querySelector(".search button").addEventListener("click", function () {
 document
   .querySelector(".search-bar")
   .addEventListener("keyup", function (event) {
-    if (event.key == "Enter") weather.search();
+    if (event.key == "Enter") {
+      weather.search();
+    }
   });
+weather.fetchWeather("India");

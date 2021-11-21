@@ -83,6 +83,13 @@ form {
     margin-left: -18px;
     width: 63vw;
   }
+  .shift {
+    margin-left: -21vw;
+  }
+  .label1 {
+    width: 60vw;
+    margin-left: -30px;
+  }
 }
 
 @media (max-width: 621px) {
@@ -94,5 +101,12 @@ form {
   }
   .btn {
     margin-left: -43vw;
+  }
+  .shift {
+    margin-left: -14vw;
+  }
+  .label1 {
+    width: 60vw;
+    margin-left: -5vw;
   }
 }
